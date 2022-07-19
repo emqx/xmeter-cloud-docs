@@ -1,0 +1,140 @@
+{
+  "cn": [
+    {
+      "title": "XMeter Cloud",
+      "path": "./"
+    },
+    {
+      "title": "产品简介",
+      "children": [
+        {
+          "title": "产品概述",
+          "path": "intro/overview"
+        },
+        {
+          "title": "产品版本",
+          "path": "intro/products"
+        },
+        {
+          "title": "产品优势",
+          "path": "intro/advantages"
+        }
+      ]
+    },
+    {
+      "title": "快速入门",
+      "children": [
+        {
+          "title": "入门简介",
+          "path": "quick_start/introduction"
+        },
+        {
+          "title": "创建账号引导",
+          "path": "quick_start/account"
+        },
+        {
+          "title": "提交 MQTT 测试",
+          "path": "quick_start/mqtt_test"
+        }
+      ]
+    },
+    {
+      "title": "功能概述",
+      "children": [
+        {
+          "title": "测试中心",
+          "path": "features/test_center"
+        },
+        {
+          "title": "测试历史",
+          "path": "features/test_records"
+        },
+        {
+          "title": "测试报告库",
+          "path": "features/collaboration_reports"
+        },
+        {
+          "title": "账务概览",
+          "path": "features/billing_brief"
+        },
+        {
+          "title": "代金券",
+          "path": "features/coupons"
+        }
+      ]
+    },
+    {
+      "title": "产品动态",
+      "path": "release_notes"
+    }
+  ],
+  "en": [
+    {
+      "title": "XMeter Cloud",
+      "path": "./"
+    },
+    {
+      "title": "Introduction",
+      "children": [
+        {
+          "title": "Overview",
+          "path": "intro/overview"
+        },
+        {
+          "title": "Products",
+          "path": "intro/products"
+        },
+        {
+          "title": "Advantages",
+          "path": "intro/advantages"
+        }
+      ]
+    },
+    {
+      "title": "Quick Start",
+      "children": [
+        {
+          "title": "Overview",
+          "path": "quick_start/introduction"
+        },
+        {
+          "title": "Register guide",
+          "path": "quick_start/account"
+        },
+        {
+          "title": "Submit an MQTT test",
+          "path": "quick_start/mqtt_test"
+        }
+      ]
+    },
+    {
+      "title": "Features",
+      "children": [
+        {
+          "title": "Test Center",
+          "path": "features/test_center"
+        },
+        {
+          "title": "Test Records",
+          "path": "features/test_records"
+        },
+        {
+          "title": "Collaboration Reports",
+          "path": "features/collaboration_reports"
+        },
+        {
+          "title": "Billing Brief",
+          "path": "features/billing_brief"
+        },
+        {
+          "title": "Coupons",
+          "path": "features/coupons"
+        }
+      ]
+    },
+    {
+      "title": "Release Note",
+      "path": "release_notes"
+    }
+  ]
+}
