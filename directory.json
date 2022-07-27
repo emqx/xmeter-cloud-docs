@@ -58,6 +58,10 @@
           "path": "features/collaboration_reports"
         },
         {
+          "title": "财务管理",
+          "path": "features/billing_intro"
+        },
+        {
           "title": "账务概览",
           "path": "features/billing_brief"
         },
@@ -129,6 +133,10 @@
         {
           "title": "Collaboration Reports",
           "path": "features/collaboration_reports"
+        },
+        {
+          "title": "Billing",
+          "path": "features/billing_intro"
         },
         {
           "title": "Billing Brief",
