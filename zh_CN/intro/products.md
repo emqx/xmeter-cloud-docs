@@ -44,33 +44,33 @@ XMeter Cloud 分为两个版本，每个版本支持不同规格。
    </tr>
    <tr>
       <td>CoAP 协议支持</td>
-      <td>&#10003</td>
       <td>&#10007</td>
+      <td>&#10003</td>
    </tr>
    <tr>
       <td>LwM2M 协议支持</td>
-      <td>&#10003</td>
       <td>&#10007</td>
+      <td>&#10003</td>
    </tr>
    <tr>
       <td>TCP 协议支持</td>
-      <td>&#10003</td>
       <td>&#10007</td>
+      <td>&#10003</td>
    </tr>
    <tr>
-      <td>HTTP , HTTPS 协议支持</td>
-      <td>&#10003</td>
+      <td>HTTP, HTTPS 协议支持</td>
       <td>&#10007</td>
+      <td>&#10003</td>
    </tr>
    <tr>
       <td>Websocket 协议支持</td>
-      <td>&#10003</td>
       <td>&#10007</td>
+      <td>&#10003</td>
    </tr>
    <tr>
       <td>自定义协议支持</td>
-      <td>&#10003</td>
       <td>&#10007</td>
+      <td>&#10003</td>
    </tr>
    <tr>
       <td>MQTT 标准测试场景支持</td>
@@ -79,8 +79,8 @@ XMeter Cloud 分为两个版本，每个版本支持不同规格。
    </tr>
    <tr>
       <td>自定义 JMeter 脚本支持</td>
-      <td>&#10003</td>
       <td>&#10007</td>
+      <td>&#10003</td>
    </tr>
    <tr>
       <td>公网测试</td>
@@ -89,8 +89,8 @@ XMeter Cloud 分为两个版本，每个版本支持不同规格。
    </tr>
    <tr>
       <td>私有网络测试</td>
-      <td>&#10003</td>
       <td>&#10007</td>
+      <td>&#10003</td>
    </tr>
    <tr>
       <td>最大连接数</td>
