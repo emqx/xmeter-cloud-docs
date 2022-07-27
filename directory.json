@@ -59,7 +59,7 @@
         },
         {
           "title": "财务管理",
-          "path": "features/billing_intro.md"
+          "path": "features/billing_intro"
         },
         {
           "title": "账务概览",
@@ -136,7 +136,7 @@
         },
         {
           "title": "Billing",
-          "path": "features/billing_intro.md"
+          "path": "features/billing_intro"
         },
         {
           "title": "Billing Brief",
