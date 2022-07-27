@@ -50,6 +50,10 @@
           "path": "features/test_records"
         },
         {
+          "title": "测试报告",
+          "path": "features/test_reports"
+        },
+        {
           "title": "测试报告库",
           "path": "features/collaboration_reports"
         },
@@ -117,6 +121,10 @@
         {
           "title": "Test Records",
           "path": "features/test_records"
+        },
+        {
+          "title": "Test Reports",
+          "path": "features/test_reports"
         },
         {
           "title": "Collaboration Reports",
