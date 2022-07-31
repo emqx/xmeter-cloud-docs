@@ -4,7 +4,7 @@
 
 您无需登录即可查看，登录后可进行报告下载。点击 ` 复制链接 ` 可以链接形式进行分享。
 
-![image-20220720154150775](./assets/collaboration_reports_list.png)
+![image-20220720154150775](../_assets/collaboration_reports_list.png)
 
 ## 查看报告详情
 
@@ -14,5 +14,5 @@
 
 测试背景中将展示测试目的、测试架构、测试环境、测试配置、测试结果等内容。
 
-![image-20220727185050881](./assets/collaboration_report.png)
+![image-20220727185050881](../_assets/collaboration_report.png)
 

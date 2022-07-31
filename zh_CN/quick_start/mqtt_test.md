@@ -8,11 +8,11 @@ MQTT 协议占据了物联网协议的半壁江山。在本教程中，您将学
 
 2. 在测试中心页面的 MQTT  标准场景测试处，点击 `开始测试`。
 
-   ![launch-test](./assets/first_test.png)
+   ![launch-test](../_assets/first_test.png)
 
 3. 进行基础设置
 
-   ![config-step1](./assets/config_step_1.png)
+   ![config-step1](../_assets/config_step_1.png)
 
    - 设置测试名称：为测试设置具有辨识度的名称，以与其他测试区分。
    - 设置测试名称：为测试设置具有辨识度的名称，以与其他测试区分。
@@ -20,11 +20,11 @@ MQTT 协议占据了物联网协议的半壁江山。在本教程中，您将学
    - 设置连接数：测试中与 MQTT Broker 建立的连接数量。在带消息吞吐的测试场景下，连接数包括了发布客户端和订阅客户端与 MQTT Broker 的连接。
    - 设置 MQTT Broker 地址及端口：MQTT Broker 的公网 IP 或 Host，以及 TCP 的端口。选择 EMQX Cloud 作为 MQTT Broker 的用户可以从相应部署的概览页面，复制部署的连接地址及端口。
 
-   ![emqx-cloud-deployment](./assets/emqx_cloud_deploy.png)
+   ![emqx-cloud-deployment](../_assets/emqx_cloud_deploy.png)
 
    - 设置用户名及密码：客户端连接 MQTT Broker 时的认证用户名和密码。如果 Broker 端未开启认证，不需要填写。选择 EMQX Cloud 作为 MQTT Broker 的用户可以从相应部署的认证鉴权页面，查看对应的用户名和密码。
 
-   ![emqx-cloud-auth](./assets/emqx_cloud_auth.png)
+   ![emqx-cloud-auth](../_assets/emqx_cloud_auth.png)
 
    - 设置描述：为测试提供进一步的说明信息。
 
@@ -33,7 +33,7 @@ MQTT 协议占据了物联网协议的半壁江山。在本教程中，您将学
 
    如果您选择了“纯连接测试”场景，只对 MQTT Broker 进行连接测试，您需要输入每秒新建的测试连接数。
 
-   ![config-step2-conn-only](./assets/config_step_2_cononly.png)
+   ![config-step2-conn-only](../_assets/config_step_2_cononly.png)
 
    如果您选择了“连接及消息吞吐测试”场景，将根据不同的模式对发布客户端及订阅客户端进行进一步的设置。
 
@@ -43,7 +43,7 @@ MQTT 协议占据了物联网协议的半壁江山。在本教程中，您将学
       - 广播模式：1 个发布客户端在同一个主题上向多个订阅客户端发布消息
       - 共享订阅模式：多个发布客户端发布消息，少数订阅客户端以共享订阅方式接收
 
-   ![config-step2-msg](./assets/config_step_2_msg.png)
+   ![config-step2-msg](../_assets/config_step_2_msg.png)
 
    - 设置发布客户端与订阅客户端数量。每种不同的模式对应不同的发布客户端及订阅客户端的设置：
       - 上报模式中，只有发布客户端，数量与基础设置中的连接数相同，无需手动设置
@@ -59,6 +59,6 @@ MQTT 协议占据了物联网协议的半壁江山。在本教程中，您将学
 
 5. 核对测试配置信息
 
-   ![config-step3](./assets/config_step_3.png)
+   ![config-step3](../_assets/config_step_3.png)
 
 6. 点击 `立即测试`，您将跳转到测试报告页面。测试将在指定测试时长后完成，您将在测试报告页面实时查看到测试的状态与数据，并在测试完成后下载测试报告。您可以前往 [测试报告](../features/test_reports.md)，了解如何解读测试报告。

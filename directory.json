@@ -9,7 +9,7 @@
       "children": [
         {
           "title": "产品概述",
-          "path": "intro/overview"
+          "path": "./"
         },
         {
           "title": "产品版本",
@@ -86,7 +86,7 @@
       "children": [
         {
           "title": "Overview",
-          "path": "intro/overview"
+          "path": "./"
         },
         {
           "title": "Products",

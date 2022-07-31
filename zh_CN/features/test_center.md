@@ -4,5 +4,5 @@
 
 如果用户已运行过测试，测试中心页面的右侧将展示最近发起的测试列表。
 
-![test-center](./assets/test_center.png)
+![test-center](../_assets/test_center.png)
 
