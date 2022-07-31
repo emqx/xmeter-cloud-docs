@@ -2,7 +2,7 @@
 
 XMeter Cloud 分为两个版本，每个版本支持不同规格。
 
-![products](./assets/products.png)
+![products](../_assets/products.png)
 
 1. 基础版：快速体验 XMeter Cloud 测试服务，进行小规格 MQTT 性能测试。
 2. 专业版：适用于大规模的专业性能测试，丰富的协议支持和测试场景支持，包含自定义脚本、私有网络连接等高级功能。

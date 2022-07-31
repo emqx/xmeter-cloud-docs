@@ -8,17 +8,17 @@ The overview page displays the following:
 2. Billing of the current month (the billing from the 1st of the month to the current time)
 3. Cost trend, which can be switched between  `day` and `month`  to show the corresponding cost trend
 
-![billing_brief](./assets/billing_brief.png)
+![billing_brief](../_assets/billing_brief.png)
 
 ## View Transactions
 
 The transactions will display transaction history. Access the Transactions page from the overview page.
 
-![transactions](./assets/transactions.png)
+![transactions](../_assets/transactions.png)
 
 The transaction records can be filtered by transaction time.
 
-![transactions-query](./assets/transactions_query.png)
+![transactions-query](../_assets/transactions_query.png)
 
 ## View Bills
 
@@ -26,16 +26,16 @@ The bills will display billing records.
 
 1. Click  `Bills`  to view bills history
 
-   ![bills](./assets/bills.png)
+   ![bills](../_assets/bills.png)
 
 2. To view the details of associated test, click on the test name.
 
-   ![bills-testrun](./assets/bills_testrun.png)
+   ![bills-testrun](../_assets/bills_testrun.png)
 
 3. The bill records can be filtered by billing time.
 
-   ![bills-time-query](./assets/bills_time_query.png)
+   ![bills-time-query](../_assets/bills_time_query.png)
 
 4. Check  `Monthly bill` for monthly billing records.
 
-   ![bills-month](./assets/bills_month.png)
+   ![bills-month](../_assets/bills_month.png)
