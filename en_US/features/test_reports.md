@@ -8,7 +8,7 @@ The test reports page displays the following:
 
 Test info will show test config and execution info.
 
-![test-info](./assets/test_info.png)
+![test-info](../_assets/test_info.png)
 
 ## Test report charts
 
@@ -26,23 +26,23 @@ Let's review some core performance metrics:
 
 The upper part of the test report charts shows the overall performance data based on all transactions of the test.
 
-![test-overall](./assets/test_overall.png)
+![test-overall](../_assets/test_overall.png)
 
 The line charts in middle part of the test report shows the performance trends for each transaction over time. The metrics include: response time, TPS, virtual user, success rate, network download traffic, etc.
 
-![test-charts](./assets/test_charts_1.png)
+![test-charts](../_assets/test_charts_1.png)
 
-![test-charts](./assets/test_charts_2.png)
+![test-charts](../_assets/test_charts_2.png)
 
 The `Detailed data` in lower part of the test report charts shows the performance statistics for each transaction. The metrics include: hit number, average response time, 90% average response time, average TPS, success rate, deviation, etc.
 
-![test-fulldata](./assets/test_fulldata.png)
+![test-fulldata](../_assets/test_fulldata.png)
 
 ## Test machine status
 
 When a test is in execution, the test resources will be created automatically. You can look into CPU load, CPU usage, memory usage and so on to help estimate if the test is on the right track.
 
-![test-machine](./assets/test_machine.png)
+![test-machine](../_assets/test_machine.png)
 
 ## Test logs
 
@@ -52,16 +52,16 @@ Test logs will show sorted logs generated during test. You can view logs during 
 
 Trace logs display interaction messages between simulated clients and system being tested. You can check details of a trace log record for debugging purpose.
 
-![trace-log](./assets/trace_log.png)
+![trace-log](../_assets/trace_log.png)
 
 ### Error logs
 
 Error logs display different types of errors and occurrences during test runs。 You can click and check details of an error log record.
 
-![error-log](./assets/error_log.png)
+![error-log](../_assets/error_log.png)
 
 ### Other logs
 
 Other logs display execution logs generated during test. You can also download all logs, including error logs and trace logs. 
 
-![other-log](./assets/other_log.png)
+![other-log](../_assets/other_log.png)

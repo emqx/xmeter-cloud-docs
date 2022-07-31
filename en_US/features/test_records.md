@@ -4,7 +4,7 @@ Test records will show records of launched tests.
 
 1. Click `Test records` from test center page, or click  `Test Management ` -> `Test Records` from the top menu to enter the test records page.
 
-   ![test-records](./assets/test_records.png)
+   ![test-records](../_assets/test_records.png)
 
 2. The test records can be filtered by test name and 'Show Only Running Tests' option.
 
@@ -20,4 +20,4 @@ Test records will show records of launched tests.
 
 8. You can click  `Delete test records` button to batch delete selected test records.
 
-![test-delete](./assets/test_records_del.png)
+![test-delete](../_assets/test_records_del.png)
