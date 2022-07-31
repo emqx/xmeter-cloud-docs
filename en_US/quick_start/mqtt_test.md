@@ -8,11 +8,11 @@ MQTT protocol is one of the core IoT messaging protocols. This tutorial will gui
 
 2. Click the ` Start test ` button.
 
-   ![launch-test](./assets/first_test.png)
+   ![launch-test](../_assets/first_test.png)
 
 3. Go through the basic settings.
 
-   ![config-step1](./assets/config_step_1.png)
+   ![config-step1](../_assets/config_step_1.png)
 
    - Provide the following information:
      - Test name
@@ -22,13 +22,11 @@ MQTT protocol is one of the core IoT messaging protocols. This tutorial will gui
      - User name and password are only needed when your MQTT Broker enables authentication. If you test again MQTT on EMQX Cloud, obtain the information from EMQX Cloud authentication page.
      - Description for optional test details.
 
-
-
 4. Go through the scenario settings.
 
    If you select 'Connection-only test', you will input for 'New connections per second'.
 
-   ![config-step2-conn-only](./assets/config_step_2_cononly.png)
+   ![config-step2-conn-only](../_assets/config_step_2_cononly.png)
 
    If you select 'Connection-and-message-throughput test', you will provide more information for publisher and subscriber according to selected messaging mode :
 
@@ -38,7 +36,7 @@ MQTT protocol is one of the core IoT messaging protocols. This tutorial will gui
       - Fan-out mode: single publisher sends messages to multiple subscribers on the same topic
       - Fan-in mode: multiple publishers send messages received by a few subscribers on a shared subscription basis
 
-   ![config-step2-msg](./assets/config_step_2_msg.png)
+   ![config-step2-msg](../_assets/config_step_2_msg.png)
 
    - Input number of publishers/subscribers for some messaging modes：
       - Publish mode: no subscriber and equal number of publishers as connections set in previous step. No manual setting required.
@@ -51,6 +49,6 @@ MQTT protocol is one of the core IoT messaging protocols. This tutorial will gui
 
 5. Review the estimated price and test settings.
 
-   ![config-step3](./assets/config_step_3.png)
+   ![config-step3](../_assets/config_step_3.png)
 
 6. Click ` Test it now ` , you will automatically jump to the test report page. You can view the test status and charts when the testing is running, as well as exporting test report when the test is done. Refer to  [Test reports](../features/test_reports.md) for more guide of understanding a test report. 

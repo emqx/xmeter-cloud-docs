@@ -8,7 +8,7 @@
 
 测试信息将展示测试的运行配置信息和测试运行信息。
 
-![test-info](./assets/test_info.png)
+![test-info](../_assets/test_info.png)
 
 ## 测试报告图表
 
@@ -26,23 +26,23 @@
 
 报告上部展示了本次测试的汇总信息，是基于测试中的所有操作统计的，体现测试的整体状况。
 
-![test-overall](./assets/test_overall.png)
+![test-overall](../_assets/test_overall.png)
 
 报告中部的几张折线图展示了测试中各个操作的多个性能指标随时间变化的趋势，如：响应时间、吞吐量、虚拟用户数、成功率、网络流量等。
 
-![test-charts](./assets/test_charts_1.png)
+![test-charts](../_assets/test_charts_1.png)
 
-![test-charts](./assets/test_charts_2.png)
+![test-charts](../_assets/test_charts_2.png)
 
 报告下部的 `测试数据明细` 展示了测试中各个操作的性能指标统计数据，如：运行次数、平均响应时间、90% 平均响应时间、平均吞吐量、成功率、标准方差等。
 
-![test-fulldata](./assets/test_fulldata.png)
+![test-fulldata](../_assets/test_fulldata.png)
 
 ## 测试机状态
 
 测试启动后，测试机资源将会自动创建。您可以通过 CPU 负载、CPU占用率、内存使用量来了解测试机的实时使用情况，作为判断测试是否在正常状态下运行的参考依据。
 
-![test-machine](./assets/test_machine.png)
+![test-machine](../_assets/test_machine.png)
 
 ## 测试日志
 
@@ -52,14 +52,14 @@
 
 跟踪日志展示了模拟的并发客户端与被测应用之间的交互消息。您可以点击某条跟踪日志，在右侧将展示对应操作的详情信息。跟踪日志对性能测试过程中的调试很有帮助。
 
-![trace-log](./assets/trace_log.png)
+![trace-log](../_assets/trace_log.png)
 
 ### 错误日志
 
-错误日志展示了测试运行过程中发生的不同类型的错误，并统计了错误发生的次数。您可以点击某条错误日志，查看发生错误的操作的详细信息。![error-log](./assets/error_log.png)
+错误日志展示了测试运行过程中发生的不同类型的错误，并统计了错误发生的次数。您可以点击某条错误日志，查看发生错误的操作的详细信息。![error-log](../_assets/error_log.png)
 
 ### 其他日志
 
 您可以在其他日志中查看测试运行中产生的运行日志。也可以下载全部日志文件，以获取包括错误日志和跟踪日志在内的各类日志。
 
-![other-log](./assets/other_log.png)
+![other-log](../_assets/other_log.png)

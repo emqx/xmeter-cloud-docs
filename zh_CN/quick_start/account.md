@@ -7,7 +7,7 @@
 3. 点击注册，确认邮件将自动发送到您提供的邮箱地址。
 4. 要验证您的新账户，请点击确认邮件中的链接，该链接将会验证您的账户，并返回登录页面。
 
-![signup](./assets/signup.png)
+![signup](../_assets/signup.png)
 
 
 
@@ -16,4 +16,4 @@
 1. 输入您的邮箱和密码，然后选择登录，进入 XMeter Cloud。
 2. 您也可以通过微信、GitHub 登录。
 
-![login](./assets/login.png)
+![login](../_assets/login.png)

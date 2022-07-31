@@ -4,7 +4,7 @@
 
 1. 在测试中心页面中点击 `历史记录` ，或点击顶部菜单中的 `测试管理` -> `测试历史` ，可进入测试历史页面。
 
-   ![test-records](./assets/test_records.png)
+   ![test-records](../_assets/test_records.png)
 
 2. 可使用测试名称、仅显示运行中的测试的过滤方式查看测试历史。
 
@@ -20,4 +20,4 @@
 
 8. 勾选测试后，您可以点击 `删除测试记录` 按钮批量删除测试记录。
 
-![test-delete](./assets/test_records_del.png)
+![test-delete](../_assets/test_records_del.png)

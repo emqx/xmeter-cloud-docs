@@ -2,7 +2,7 @@
 
 XMeter Cloud is available in two plans: Standard and Professional. Each plan provides different scales of performance testing support.
 
-![products](./assets/products.png)
+![products](../_assets/products.png)
 
 1. Standard: Get started with XMeter Cloud easily. Small-scale MQTT testing is supported. The Standard plan offers a 14-day free trial.
 2. Professional: For large-scale professional performance testing. A wide range of protocols and test scenarios are supported, along with advanced features like user-defined JMeter scripts, VPC peering, etc.
