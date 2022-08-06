@@ -28,9 +28,9 @@
 
    ![transactions-query](../_assets/transactions_query.png)
 
-3. 交易记录页面点击 `概览` 可回到 `概览` 页面：
+3. 交易记录页面点击 `概览` 可回到概览页面：
 
-   ![transactions-list](../_assets/transactions_list.png)
+   ![transactions-list](../_assets/transactions_back.png)
 
 ## 查看历史账单
 

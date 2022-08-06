@@ -1,6 +1,6 @@
 # Register Guide
 
-## [Register an account](https://www.emqx.com/zh/signup?continue=https://www.emqx.com/zh/products/xmeter)
+## [Register an account](https://www.emqx.com/en/signup?continue=https://xmeter-cloud.emqx.com/commercialPage.html#)
 
 Start and the XMeter Cloud sign up page
 
@@ -19,7 +19,7 @@ Start and the XMeter Cloud sign up page
 
 4. Now you are ready to log in to XMeter Cloud.
 
-## [Login to the account](https://www.emqx.com/zh/signin?continue=https://www.emqx.com/cn/cloud)
+## [Login to the account](https://www.emqx.com/en/signin?continue=https://xmeter-cloud.emqx.com/commercialPage.html#)
 
 1. Go to XMeter Cloud login page.
 2. Enter your email and password.
