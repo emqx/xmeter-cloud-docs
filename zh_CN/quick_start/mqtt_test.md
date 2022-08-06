@@ -4,7 +4,7 @@ MQTT 协议占据了物联网协议的半壁江山。在本教程中，您将学
 
 ## 创建并发起 MQTT 标准场景测试
 
-1. 登录账户，导航到 XMeter Cloud [控制台](https://accounts.emqx.cn/signin?continue=https://xmeter-cloud.emqx.com/console/)。
+1. 登录账户，导航到 XMeter Cloud [控制台](https://xmeter-cloud.emqx.com/commercialPage.html#/)。
 
 2. 在测试中心页面的 MQTT  标准场景测试处，点击 `开始测试`。
 
@@ -14,7 +14,6 @@ MQTT 协议占据了物联网协议的半壁江山。在本教程中，您将学
 
    ![config-step1](../_assets/config_step_1.png)
 
-   - 设置测试名称：为测试设置具有辨识度的名称，以与其他测试区分。
    - 设置测试名称：为测试设置具有辨识度的名称，以与其他测试区分。
    - 设置测试时长：测试的预期运行时间。
    - 设置连接数：测试中与 MQTT Broker 建立的连接数量。在带消息吞吐的测试场景下，连接数包括了发布客户端和订阅客户端与 MQTT Broker 的连接。
@@ -31,7 +30,7 @@ MQTT 协议占据了物联网协议的半壁江山。在本教程中，您将学
 
 4. 进行场景设置
 
-   如果您选择了“纯连接测试”场景，只对 MQTT Broker 进行连接测试，您需要输入每秒新建的测试连接数。
+   如果您选择了“纯连接测试”场景，只对 MQTT Broker 进行连接测试，您需要输入每秒新建的连接数。
 
    ![config-step2-conn-only](../_assets/config_step_2_cononly.png)
 

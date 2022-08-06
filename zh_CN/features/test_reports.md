@@ -30,9 +30,7 @@
 
 报告中部的几张折线图展示了测试中各个操作的多个性能指标随时间变化的趋势，如：响应时间、吞吐量、虚拟用户数、成功率、网络流量等。
 
-![test-charts](../_assets/test_charts_1.png)
-
-![test-charts](../_assets/test_charts_2.png)
+![test-charts](../_assets/test_charts.png)
 
 报告下部的 `测试数据明细` 展示了测试中各个操作的性能指标统计数据，如：运行次数、平均响应时间、90% 平均响应时间、平均吞吐量、成功率、标准方差等。
 

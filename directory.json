@@ -1,25 +1,8 @@
 {
   "cn": [
     {
-      "title": "XMeter Cloud",
+      "title": "XMeter Cloud 产品简介",
       "path": "./"
-    },
-    {
-      "title": "产品简介",
-      "children": [
-        {
-          "title": "产品概述",
-          "path": "./"
-        },
-        {
-          "title": "产品版本",
-          "path": "intro/products"
-        },
-        {
-          "title": "产品优势",
-          "path": "intro/advantages"
-        }
-      ]
     },
     {
       "title": "快速入门",
@@ -78,25 +61,8 @@
   ],
   "en": [
     {
-      "title": "XMeter Cloud",
+      "title": "XMeter Cloud Introduction",
       "path": "./"
-    },
-    {
-      "title": "Introduction",
-      "children": [
-        {
-          "title": "Overview",
-          "path": "./"
-        },
-        {
-          "title": "Products",
-          "path": "intro/products"
-        },
-        {
-          "title": "Advantages",
-          "path": "intro/advantages"
-        }
-      ]
     },
     {
       "title": "Quick Start",
