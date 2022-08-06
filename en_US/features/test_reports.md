@@ -30,9 +30,7 @@ The upper part of the test report charts shows the overall performance data base
 
 The line charts in middle part of the test report shows the performance trends for each transaction over time. The metrics include: response time, TPS, virtual user, success rate, network download traffic, etc.
 
-![test-charts](../_assets/test_charts_1.png)
-
-![test-charts](../_assets/test_charts_2.png)
+![test-charts](../_assets/test_charts.png)
 
 The `Detailed data` in lower part of the test report charts shows the performance statistics for each transaction. The metrics include: hit number, average response time, 90% average response time, average TPS, success rate, deviation, etc.
 
