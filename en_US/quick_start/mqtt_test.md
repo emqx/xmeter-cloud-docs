@@ -4,7 +4,7 @@ MQTT protocol is one of the core IoT messaging protocols. This tutorial will gui
 
 ## Start an MQTT standard scenario test
 
-1. Login to [XMeter Cloud Console](https://accounts.emqx.cn/signin?continue=https://xmeter-cloud.emqx.com/console/).
+1. Login to [XMeter Cloud Console](https://xmeter-cloud.emqx.com/commercialPage.html#/).
 
 2. Click the ` Start test ` button.
 
