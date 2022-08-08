@@ -2,7 +2,7 @@
 
 Test records will show records of launched tests.
 
-1. Click `Test records` from test center page, or click  `Test Management ` -> `Test Records` from the top menu to enter the test records page.
+1. Click `Test records` from test center page, or click  `Tests` -> Test Records` from the top menu to enter the test records page.
 
    ![test-records](../_assets/test_records.png)
 

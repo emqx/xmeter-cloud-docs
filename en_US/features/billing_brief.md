@@ -36,6 +36,6 @@ The bills will display billing records.
 
    ![bills-time-query](../_assets/bills_time_query.png)
 
-4. Check  `Monthly bill` for monthly billing records.
+4. Check  `Monthly bills` for monthly billing records.
 
    ![bills-month](../_assets/bills_month.png)

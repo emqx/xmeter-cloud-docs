@@ -13,4 +13,4 @@ The coupons will show all the coupons owned by the account, including the coupon
 
 ## Get Coupons
 
-To obtain coupons, you can follow the official website activities or contact us.
+A coupon will be issued to your account on first trial. You can try a total of around 60 minutes of testing. To obtain more coupons, you can follow the official website activities or contact us.
