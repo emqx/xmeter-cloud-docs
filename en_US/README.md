@@ -51,7 +51,7 @@ XMeter Cloud is available in two plans: Standard and Professional. Each plan pro
    <tr>
       <td>Standard</td>
       <td>Up to 1,000 connections / Up to 1,000 TPS</td>
-      <td>$0.35/min. 14-day free trial</td>
+      <td>$4.90/min. Free coupon on first trial</td>
       <td>Included</td>
    </tr>
    <tr>
