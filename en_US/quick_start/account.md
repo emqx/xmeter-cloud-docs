@@ -11,7 +11,7 @@ Start and the XMeter Cloud sign up page
    - Password
    - Company
 
-   ![signup](../_assets/signup.png)
+<img src="../_assets/signup.png" width ="60%" />
 
 2. Click `Sign up` to register to create your account. XMeter Cloud will automatically send a confirmation email to the email address you provided.
 
@@ -25,4 +25,4 @@ Start and the XMeter Cloud sign up page
 2. Enter your email and password.
 3. Click `Sign in` to direct to the XMeter Cloud page. 
 
-![login](../_assets/login.png)
+<img src="../_assets/login.png" width ="60%" />
