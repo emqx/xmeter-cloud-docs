@@ -55,6 +55,10 @@
         {
           "title": "代金券",
           "path": "features/coupons"
+        },
+        {
+          "title": "资源包",
+          "path": "features/resource_packs"
         }
       ]
     },
