@@ -59,6 +59,10 @@
         {
           "title": "资源包",
           "path": "features/resource_packs"
+        },
+        {
+          "title": "订单",
+          "path": "features/order"
         }
       ]
     },
