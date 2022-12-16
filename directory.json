@@ -63,6 +63,10 @@
         {
           "title": "订单",
           "path": "features/order"
+        },
+        {
+          "title": "VPC 对等连接",
+          "path": "features/vpc"
         }
       ]
     },
