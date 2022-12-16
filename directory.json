@@ -67,6 +67,10 @@
         {
           "title": "订单",
           "path": "features/order"
+        },
+        {
+          "title": "VPC 对等连接",
+          "path": "features/vpc"
         }
       ]
     },
@@ -127,6 +131,10 @@
         {
           "title": "Coupons",
           "path": "features/coupons"
+        },
+        {
+          "title": "VPC Peering Connections",
+          "path": "features/vpc"
         }
       ]
     },

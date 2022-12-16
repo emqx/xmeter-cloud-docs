@@ -34,3 +34,8 @@ VPC peering connection is a network connection between two VPCs. Through this co
 2. When the region has been chose, you can input the private IP for the MQTT broker to be tested that is bound to the corresponding peering connection.
 
    ![vpc_private_ip](../_assets/vpc_private_ip.png)
+
+3. After the test is submitted, you can view the region in which the test is running from `Test Info` tab. 
+
+   ![vpc_test](../_assets/vpc_test.png)
+   

@@ -32,3 +32,7 @@ VPC 对等连接是两个 VPC 之间的网络连接，通过此连接，使两�
 2. 选择一个发压区域后，位于相应对等连接中用户端 VPC 内的服务/应用即可通过内网 IP 进行测试，将该内网 IP 地址填入  `MQTT Broker 地址` 中。
 
    ![vpc_private_ip](../_assets/vpc_private_ip.png)
+
+3. 测试成功提交后，可在`测试信息`标签页下的`运行信息`卡片中看到关联的发压区域信息。
+
+   ![vpc_test](../_assets/vpc_test.png)
