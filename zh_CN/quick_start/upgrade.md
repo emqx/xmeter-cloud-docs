@@ -17,7 +17,7 @@
 
 专业版用户可以通过设置 VPC 对等连接，对私网下的应用和服务进行测试。
 
-![vpc](/Users/yinchongyuan/Workspaces/xmeter-cloud-docs/zh_CN/_assets/upgrade_vpc.png)
+![vpc](../_assets/upgrade_vpc.png)
 
 ### 资源包
 
