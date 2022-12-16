@@ -7,7 +7,8 @@
 ## 查看代金券
 
 1. 点击 `使用记录` 可查看代金券的使用记录情况：
-     ![image-20221209162604864](../_assets/coupons_usage.png)
+
+![coupon-usage](../_assets/coupons_usage.png)
 
 
 ## 获取代金券

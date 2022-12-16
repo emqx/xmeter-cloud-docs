@@ -10,17 +10,17 @@ VPC peering connection is a network connection between two VPCs. Through this co
 
 1. XMeter Cloud only supports creating peering connection at **the same region**.
 2. Peering connections are bound to MQTT services/applications. Please contact us to assist you on creating peering connections.
-3. XMeter Cloud supports Huaweicloud peering connection for now. Please contact us if you need to test MQTT services/applications on other cloud platform.
+3. XMeter Cloud supports Huaweicloud peering connections for now. Please contact us if you need to test MQTT services/applications on other cloud platforms.
 
 ## View peering connections
 
-1. Click `Tests` ->  `VPC`  from the top menu the enter the VPC info page. 
+1. Click `Tests` ->  `VPC Test`  from the top menu the enter the VPC info page. 
 
 2. Click `Details` to view the detail info of the peerings.
 
    ![vpc_list](../_assets/vpc_list.png)
 
-3. In VPC Peering Connection Details dialog,  `XMeter Side` displays info of the VPC used by XMeter Cloud, while `Resource Side` displays info of the VPC where the MQTT broker to be tested resides. Currently, you can set at most one VPC peering connection in each supported region, and test against MQTT brokers bound to the corresponding peering connection via private IP.
+3. In VPC Peering Connection Details dialog,  `XMeter Side` displays info of the VPC used by XMeter Cloud, while `Resource Side` displays info of the VPC where the MQTT broker to be tested resides in. Currently, you can set at most one VPC peering connection in each supported region, and test against MQTT brokers bound to the corresponding peering connection via private IP.
 
    ![vpc_details](../_assets/vpc_details.png)
 
@@ -31,7 +31,7 @@ VPC peering connection is a network connection between two VPCs. Through this co
 
    ![vpc_stress_region](../_assets/vpc_stress_region.png)
 
-2. When the region has been chose, you can input the private IP for the MQTT broker to be tested that is bound to the corresponding peering connection.
+2. When the region has been chosen, you can input the private IP of the MQTT broker to be tested. The broker should be in the VPC that is bound to the corresponding peering connection and can be connected from XMeter Cloud.
 
    ![vpc_private_ip](../_assets/vpc_private_ip.png)
 

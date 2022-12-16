@@ -92,12 +92,16 @@
           "path": "quick_start/introduction"
         },
         {
-          "title": "Register account",
+          "title": "Register Account",
           "path": "quick_start/account"
         },
         {
-          "title": "Submit an MQTT test",
+          "title": "Submit an MQTT Test",
           "path": "quick_start/mqtt_test"
+        },
+        {
+          "title": "Upgrade to Professional Plan",
+          "path": "quick_start/upgrade"
         }
       ]
     },
