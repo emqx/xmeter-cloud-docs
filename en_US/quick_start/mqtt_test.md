@@ -31,7 +31,7 @@ MQTT protocol is one of the core IoT messaging protocols. This tutorial will gui
    If you select 'Connection-and-message-throughput test', you will provide more information for publisher and subscriber according to selected messaging mode :
 
    - Select mode:
-      - Publish mode: multiple publishers send messages to single topic
+      - Publish mode: multiple publishers send messages to single topic (if you input the desired one) or multiple topics
       - One-to-one mode: each publisher sends messages received by a corresponding subscriber
       - Fan-out mode: single publisher sends messages to multiple subscribers on the same topic
       - Fan-in mode: multiple publishers send messages received by a few subscribers on a shared subscription basis
