@@ -56,7 +56,7 @@ XMeter Cloud 分为两个版本，每个版本支持不同规格。
    </tr>
    <tr>
       <td>专业版</td>
-      <td>无限制</td>
+      <td>最高 500,000 连接 / 最高 500,000 TPS</td>
       <td colspan="2" align="center">联系商务</td>
    </tr>
 </table>
@@ -127,12 +127,12 @@ XMeter Cloud 分为两个版本，每个版本支持不同规格。
    <tr>
       <td>最大连接数</td>
       <td>1,000</td>
-      <td>无限制</td>
+      <td>500,000</td>
    </tr>
    <tr>
       <td>最大 TPS</td>
       <td>1,000</td>
-      <td>无限制</td>
+      <td>500,000</td>
    </tr>
    <tr>
       <td>客户支持</td>
