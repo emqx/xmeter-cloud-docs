@@ -57,8 +57,12 @@
           "path": "features/coupons"
         },
         {
-          "title": "资源包",
-          "path": "features/resource_packs"
+          "title": "测试包",
+          "path": "features/test_packs"
+        },
+        {
+          "title": "流量包",
+          "path": "features/traffic_packs"
         },
         {
           "title": "订单",
@@ -88,12 +92,16 @@
           "path": "quick_start/introduction"
         },
         {
-          "title": "Register account",
+          "title": "Register Account",
           "path": "quick_start/account"
         },
         {
-          "title": "Submit an MQTT test",
+          "title": "Submit an MQTT Test",
           "path": "quick_start/mqtt_test"
+        },
+        {
+          "title": "Upgrade to Professional Plan",
+          "path": "quick_start/upgrade"
         }
       ]
     },
@@ -127,6 +135,10 @@
         {
           "title": "Coupons",
           "path": "features/coupons"
+        },
+        {
+          "title": "VPC Peering Connections",
+          "path": "features/vpc"
         }
       ]
     },

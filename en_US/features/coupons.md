@@ -6,7 +6,7 @@ The coupons will show all the coupons owned by the account, including the coupon
 
 1. Click `Usage Records` to view the usage records of the coupon.
 
-   ![coupons](../_assets/coupons.png)
+![coupons](../_assets/coupons.png)
 
 
 

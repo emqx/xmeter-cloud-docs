@@ -56,7 +56,7 @@ XMeter Cloud is available in two plans: Standard and Professional. Each plan pro
    </tr>
    <tr>
       <td>Professional</td>
-      <td>Unlimited</td>
+      <td>Up to 500,000 connections / Up to 500,000 TPS</td>
       <td colspan="2" align="center">Contact sales</td>
    </tr>
 </table>
@@ -127,12 +127,12 @@ XMeter Cloud is available in two plans: Standard and Professional. Each plan pro
    <tr>
       <td>Maximum number of connections</td>
       <td>1,000</td>
-      <td>Unlimited</td>
+      <td>500,000</td>
    </tr>
    <tr>
       <td>Maximum TPS</td>
       <td>1,000</td>
-      <td>Unlimited</td>
+      <td>500,000</td>
    </tr>
    <tr>
       <td>Client support</td>
