@@ -77,6 +77,10 @@
     {
       "title": "产品动态",
       "path": "release_notes"
+    },
+    {
+      "title": "常见问题",
+      "path": "faq"
     }
   ],
   "en": [
@@ -145,6 +149,10 @@
     {
       "title": "Release Note",
       "path": "release_notes"
+    },
+    {
+      "title": "FAQ",
+      "path": "faq"
     }
   ]
 }
