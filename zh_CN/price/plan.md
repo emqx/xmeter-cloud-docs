@@ -73,6 +73,21 @@ XMeter Cloud 分为两个版本，每个版本支持不同规格。
       <td>&#10003</td>
    </tr>
    <tr>
+      <td>客户支持</td>
+      <td>8/5</td>
+      <td>24/7</td>
+   </tr>
+</table>
+
+## 产品规格
+
+<table>
+  <tr>
+      <th></th>
+      <th>基础版</th>
+      <th>专业版</th>
+   </tr>
+   <tr>
       <td>最大连接数</td>
       <td>1,000</td>
       <td>500,000，更高请联系商务</td>
@@ -83,8 +98,13 @@ XMeter Cloud 分为两个版本，每个版本支持不同规格。
       <td>500,000，更高请联系商务</td>
    </tr>
    <tr>
-      <td>客户支持</td>
-      <td>8/5</td>
-      <td>24/7</td>
+      <td>测试时长</td>
+      <td>60 分钟以内</td>
+      <td>24 小时以内</td>
+   </tr>
+   <tr>
+      <td>消息 Payload 大小</td>
+      <td>1KB 以内</td>
+      <td>100KB 以内</td>
    </tr>
 </table>
