@@ -5,6 +5,19 @@
       "path": "./"
     },
     {
+      "title": "产品定价",
+      "children": [
+        {
+          "title": "产品版本",
+          "path": "price/plan"
+        },
+        {
+          "title": "计费说明",
+          "path": "price/pricing"
+        }
+      ]
+    },
+    {
       "title": "快速入门",
       "children": [
         {
@@ -87,6 +100,19 @@
     {
       "title": "XMeter Cloud Introduction",
       "path": "./"
+    },
+    {
+      "title": "Pricing",
+      "children": [
+        {
+          "title": "Product Plans",
+          "path": "price/plan"
+        },
+        {
+          "title": "Pricing",
+          "path": "price/pricing"
+        }
+      ]
     },
     {
       "title": "Quick Start",
