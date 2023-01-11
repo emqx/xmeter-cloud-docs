@@ -1,5 +1,11 @@
 # FAQ
 
+## How test evaluation and deduction works in Professional plan?
+
+In Professional plan, test cost evaluation is based on VUM, where VUM = VU (virtual user, i.e. connections) * M (execution minutes). If there are available coupons that can be used for tests, the cost will be deducted from these coupons first. The remaining cost will then be deducted from test packs.
+
+If the test is running via public network, the traffic cost from XMeter Cloud is also evaluated and charged.
+
 ## What are the limitations for each test scenario in Professional plan?
 
 In Professional plan, test duration should not exceed 1,440 minutes (e.g. 24 hours), and connections should not exceed 500,000. Also, there are specific limitations for different scenarios. You will receive detailed instruction messages if your settings exceed the limitations.
