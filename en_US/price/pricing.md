@@ -1,4 +1,4 @@
-# Pricing and Billing
+# Pricing
 
 ## Glossary
 

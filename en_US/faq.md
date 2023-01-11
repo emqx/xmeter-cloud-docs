@@ -4,7 +4,7 @@
 
 In Professional plan, test cost evaluation is based on VUM, where VUM = VU (virtual user, i.e. connections) * M (execution minutes). If there are available coupons that can be used for tests, the cost will be deducted from these coupons first. The remaining cost will then be deducted from test packs.
 
-If the test is running via public network, the traffic cost from XMeter Cloud is also counted in.
+If the test is running via public network, the traffic cost from XMeter Cloud is also evaluated and charged.
 
 ## What are the limitations for each test scenario in Professional plan?
 
