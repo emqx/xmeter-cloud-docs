@@ -1,88 +1,52 @@
-# 计费说明
+# Pricing and Billing
 
-## 名词解释
+## Glossary
 
-**基础费用**：根据测试规格大小，将使用对应的测试机实例以完成测试。基础费用即为测试机实例的云服务器基础费用和部署费用。
+**Base fee**: To perform load tests of different needs, different numbers of test machines need to be deployed. Base fee is calculated based on the test machine instances cost and deployement cost.
 
-**流量费用**：公网测试中从 XMeter Cloud 端流出的公网流量将产生流量费用，流量取决于连接数、测试时长、消息吞吐量、QoS、Payload 大小等因素。在被测的 MQTT Broker 端产生的流量费用不包含在 XMeter Cloud 的流量费用中。
+**Traffic fee**: Outgoing traffic from XMeter Cloud will be charged when executing tests via public network. Traffic fee is related to number of connections, execution duration, message throughput, QoS and payload size. Traffic charged by server side will not be included in XMeter Cloud traffic fee.
 
-**VUM**：VUM = VU * M，其中 VU 表示性能测试中的“虚拟用户数”，即测试时配置的连接数，M 表示实际测试时长，以分钟计。举例说明：测试配置了 1,000 个连接数，测试运行 10 分钟，则 VUM 为 10,000。测试配置了 10,000 个连接数，测试运行 1 分钟，VUM 也是 10,000。
+**VUM**: VUM = VU * M, in which VU stands for virtual users (i.e. number of connections) and M stands for execution duration measured in minutes. For instance, a test uses 1,000 connections and lasts for 10 minutes, its VUM is 10,000; another test uses 10,000 connections and lasts for 1 minute, its VUM is also 10,000. 
 
-## 产品定价
+## Price Details
 
 <table>
    <tr>
-      <th>版本</th>
-      <th>基础费用</th>
-      <th>流量费用</th>
+      <th>Plan</th>
+      <th>Base Fee</th>
+      <th>Traffic Fee</th>
    </tr>
    <tr>
-      <td>基础版</td>
-      <td>支持后付费计费模式，价格为 ¥4.90/分钟。首次使用赠送测试代金券</td>
-      <td>无</td>
+      <td>Standard</td>
+      <td>$4.90/min. Free coupon on first trial</td>
+      <td>Included</td>
    </tr>
    <tr>
-      <td>专业版</td>
-      <td>支持按量抵扣的计费模式。提供不同 VUM 规格的测试包供选购，根据测试实际消耗的 VUM 按量从测试包中抵扣。查看 <a href="#测试包定价详情及计费规则">测试包定价详情及计费规则</a></td>
-      <td>支持按量抵扣、后付费两种计费模式。提供不同流量规格的流量包供选购，根据测试实际消耗的公网流量从流量包中按量抵扣，或以 ¥1.50/GB 的后付费价格从余额中抵扣。升级专业版赠送 1GB 流量包。查看 <a href="#流量包定价详情及计费规则">流量包定价详情及计费规则</a></td>
+      <td>Professional</td>
+      <td>Deducted from test packs based on test VUM cost. Refer to <a href="#base-fee">Base Fee</a> for details of test packs.</td>
+      <td>Charge based on public network traffic occurred during test. 1GB free traffic on upgrading to professional plan. Refer to <a href="#traffic-fee">Traffic Fee</a> for details.</td>
    </tr>
 </table>
 
-## 测试包定价详情及计费规则
+## Base Fee
 
-专业版支持更大规模的并发测试，不同规模的测试将使用不同的测试机资源。为了提供更精确的计价方式，专业版使用 **VUM** 作为衡量测试资源消耗的单位，并根据测试实际消息的 VUM 计算测试基础费用。
+Prefessional plan supports larger-scale tests, which execute on different numbers of test machines. To provide pricing in finer granularity, **VUM** is used as the base to calculate test resources cost. 
 
-基于 VUM，XMeter Cloud 推出不同规格的测试包，您可以根据自己的实际测试需求选购。专业版中，需要购买测试包后再运行测试，如果账户中可用的测试包额度少于您配置的测试所需的 VUM，将无法提交测试。
+We offer a variety of test pack specifications to support different test needs. Please contact sales for detailed pricing. 
 
-### 规格及定价
+### Billing
 
-XMeter Cloud 提供多档 VUM 的测试包，单个测试包可用于多个测试中，直至用完。
+1. When a test is submitted, corresponding VUM is locked in a test pack.
+2. When a test is completed, actual VUM cost during test will be deducted from the test pack and extra locked VUM will be released.
+3. A test pack needs to be used before expiry. Not used parts in expired test packs are not supported to be unsubscribed or transferred to other test packs.  Please note the reminder email of recent expiry.
 
-|    VUM     | 定价（¥） | 有效期 |
-| :--------: | :-------: | :----: |
-|   10,000   |    29     | 1个月  |
-|   50,000   |    139    | 1个月  |
-|  100,000   |    259    | 1个月  |
-|  500,000   |   1,229   | 1个月  |
-| 1,000,000  |   2,299   | 3个月  |
-| 2,000,000  |   4,399   | 3个月  |
-| 5,000,000  |  10,099   | 6个月  |
-| 10,000,000 |  19,099   |  1年   |
+## Traffic Fee
 
-### 计费规则
+In professional plan, traffic fee is not included in base fee. If the test is run via public network, traffic fee will be charged. Please contact sales for detailed pricing.
 
-1. 多个测试包可叠加使用，测试优先抵扣有效期近的测试包。
-2. 测试提交后，系统将根据测试配置所需的 VUM 锁定相应测试包的额度。
-3. 测试结束后，系统将根据使用的 VUM 从测试包中抵扣对应的额度，并释放多锁定部分的 VUM。如果测试实际消耗的 VUM 少于测试配置（如：中途取消测试），将会按实际发生抵扣。
-4. 测试包需在有效期内使用，逾期未使用的剩余测试包资源不支持退订，也不能转移到其他测试包。请注意测试包即将到期的提醒。
+When upgrading to professional plan, you will receive 1GB free traffic.
 
-## 流量包定价详情及计费规则
+### Billing
 
-专业版的测试包仅用于涵盖测试相关的基础资源费用，不包括公网测试产生的流量部分。如果您需要通过公网进行测试，可以购买流量包后使用流量包抵扣测试中 XMeter Cloud 端产生的公网流量，或使用余额抵扣测试的公网流量费用。
-
-升级到专业版时，系统将会自动赠送您 1GB 的流量包（有效期 3 个月），以方便您快速进行测试验证使用。
-
-### 规格及定价
-
-XMeter Cloud 提供 100 GB、1 TB 两种规格的流量包。
-
-|  流量  | 定价（¥） | 有效期 |
-| :----: | :-------: | :----: |
-| 100 GB |    139    | 6个月  |
-|  1 TB  |   1,299   |  1年   |
-
-### 计费规则
-
-1. 公网测试运行中，系统每分钟计算一次消耗的流量，并优先使用流量包抵扣流量费用。
-2. 多个流量包可用于同一个测试，优先抵扣有效期近的流量包。
-3. 流量包中的流量使用完后，继续按 ￥1.5/GB 的流量费用从余额中扣除。如果余额低于账户允许的透支额度，测试将被中断。请在测试中及时关注流量情况。
-4. 流量包需在有效期内使用，逾期未使用的剩余流量包资源不支持退订，也不能转移到其他流量包。请注意流量包即将到期的提醒。
-
-## 欠费说明
-
-余额因公网流量费用抵扣等原因产生透支时，XMeter Cloud 将发送通知邮件到注册邮箱，期间账户提供一定数额透支额度，透支额度耗尽后，运行中的测试将被中止，并在缴清欠费前无法提交新的测试。
-
-
-::: warning
-透支额度默认为 ￥10，如需提升额度请联系您的商务经理
-:::
+1. When a test via public network is running, the traffic fee is calculated every minute.
+2. When a test is completed, the accumulated traffic fee will be charged.
