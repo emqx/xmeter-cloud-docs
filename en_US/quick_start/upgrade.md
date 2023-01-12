@@ -1,6 +1,6 @@
 ## Upgrade to professional plan
 
-Click `User Profile` ->  `Upgrade`  from the top menu the enter the Products page. Then Click the `Upgrade to Professional plan` button, read and agree the XMeter Cloud Professional Plan Services Agreement, and your account will be upgraded to professional plan.
+Click `User Profile` ->  `Upgrade`  from the top menu to enter the Products page. Then Click the `Upgrade to Professional plan` button, read and agree the XMeter Cloud Professional Plan Services Agreement, and your account will be upgraded to professional plan.
 
 ![upgrade](../_assets/upgrade.png)
 
