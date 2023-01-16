@@ -1,5 +1,9 @@
 # Release note
 
+## 2023-01-17
+
+Support professional plan upgrade by user self.
+
 ## 2022-12-17
 
 Professional plan released. Support tests with larger scale, and tests via VPC peering connections.
