@@ -29,12 +29,12 @@
           "path": "quick_start/account"
         },
         {
-          "title": "提交 MQTT 测试",
-          "path": "quick_start/mqtt_test"
+          "title": "版本选择",
+          "path": "quick_start/product"
         },
         {
-          "title": "升级到专业版",
-          "path": "quick_start/upgrade"
+          "title": "提交 MQTT 测试",
+          "path": "quick_start/mqtt_test"
         }
       ]
     },
