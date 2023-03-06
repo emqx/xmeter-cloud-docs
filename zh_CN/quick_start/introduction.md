@@ -6,6 +6,8 @@
 
 - [创建账户](./account.md)
 
+- [版本选择](./product.md)
+
 如果您已经创建了账号并准备使用 XMeter Cloud 的服务，也可以直接查看提交 MQTT 测试的快速指南：
 
 - [提交 MQTT 测试](./mqtt_test.md)
