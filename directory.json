@@ -35,6 +35,10 @@
         {
           "title": "提交 MQTT 测试",
           "path": "quick_start/mqtt_test"
+        },
+        {
+          "title": "提交自定义场景测试",
+          "path": "quick_start/custom_scene_test"
         }
       ]
     },
@@ -44,6 +48,10 @@
         {
           "title": "测试中心",
           "path": "features/test_center"
+        },
+        {
+          "title": "测试场景",
+          "path": "features/test_scenario"
         },
         {
           "title": "测试历史",
@@ -126,12 +134,16 @@
           "path": "quick_start/account"
         },
         {
+          "title": "Upgrade to Professional Plan",
+          "path": "quick_start/upgrade"
+        },
+        {
           "title": "Submit an MQTT Test",
           "path": "quick_start/mqtt_test"
         },
         {
-          "title": "Upgrade to Professional Plan",
-          "path": "quick_start/upgrade"
+          "title": "Submit a Custom Scenario Test",
+          "path": "quick_start/custom_scene_test"
         }
       ]
     },
@@ -141,6 +153,10 @@
         {
           "title": "Test Center",
           "path": "features/test_center"
+        },
+        {
+          "title": "Test Scenarios",
+          "path": "features/test_scenario"
         },
         {
           "title": "Test Records",
