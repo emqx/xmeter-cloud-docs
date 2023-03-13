@@ -29,7 +29,7 @@
           "path": "quick_start/account"
         },
         {
-          "title": "版本选择",
+          "title": "选择版本",
           "path": "quick_start/product"
         },
         {
@@ -37,7 +37,7 @@
           "path": "quick_start/mqtt_test"
         },
         {
-          "title": "提交自定义场景测试",
+          "title": "提交其他协议测试",
           "path": "quick_start/custom_scene_test"
         }
       ]
@@ -134,8 +134,8 @@
           "path": "quick_start/account"
         },
         {
-          "title": "Upgrade to Professional Plan",
-          "path": "quick_start/upgrade"
+          "title": "Choose a Plan",
+          "path": "quick_start/product"
         },
         {
           "title": "Submit an MQTT Test",
