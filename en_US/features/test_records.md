@@ -6,9 +6,9 @@ Test records will show records of launched tests.
 
    ![test-records](../_assets/test_records.png)
 
-2. The test records can be filtered by test name and 'Show Only Running Tests' option.
+2. Filter the test records by test name and 'Show Only Running Tests' option.
 
-3. The test records can be ordered by test start time and end time.
+3. Order the test records by test start time or end time.
 
 4. Click test name to view test status and charts in test report page.
 

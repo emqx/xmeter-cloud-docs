@@ -14,5 +14,5 @@
 
 如果您正在使用 XMeter Cloud 专业版的服务，可以查看下列指南学习如何进行 MQTT 以外其他协议的测试：
 
-- [提交自定义场景测试](./custom_scene_test.md)
+- [提交其他协议测试](./custom_scene_test.md)
 

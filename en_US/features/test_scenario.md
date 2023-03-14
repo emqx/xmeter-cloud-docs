@@ -1,87 +1,107 @@
-# 测试场景
+# Test scenarios
 
 ::: warning
-该功能在基础版中不可用
+Only available in professional plan
 :::
 
-测试场景将管理用户自定义的测试场景，包括查看场景列表、创建自定义场景、提交自定义场景测试、编辑自定义场景、删除自定义场景、下载自定义场景脚本。
+Test scenarios will allow you to view detailed test scenario information, create custom scenarios, submit custom scenario tests, edit custom scenarios, delete custom scenarios, and download scenario scripts.
 
-1. 在测试中心页面点击左侧 `自定义场景测试` 中的 `选择场景` ，或点击顶部菜单中的 `测试管理` -> `测试场景` ，可进入测试场景页面。
+1. Click the ` Choose scenario ` button from ` Custom scenario test ` on test center page, or click `Tests` ->  `Test Scenarios`  from the top menu to enter the test scenarios page.
 
-<图>
+   ![test-scenario-entry](../_assets/test_scenario_entry.png)
 
-2. 可使用场景名称过滤查看自定义测试场景。
-3. 也可以通过场景名称、上传时间对自定义测试场景进行排序。
-4. 页面中将展示每个自定义测试场景最近一次的测试状态和测试名称，以及该场景的上传时间、所包含的脚本名称。点击最近一次的测试名称，将进入测试报告页面展示测试详情及可视化报告。
+2. Filter the custom scenarios by scenario name.
 
-## 创建场景
+3. Order the custom scenarios by scenario name or upload time.
 
-1. 在测试场景页面点击 `创建场景` 按钮。
+4. You can view test status and test name from the latest test execution. You can also view upload time and script name for each custom scenario. Click the test name for the latest execution to view test charts in the test report page.
 
-   <图>
+   ![test-scenario](../_assets/test_scenarios.png)
 
-2. 选择后缀名为 .jmx 的 JMeter 脚本文件至上传框中。每个自定义场景中应只包含 1 个 JMeter 脚本。自定义场景支持  JMeter 内置的测试组件和取样器，例如 HTTP 请求取样器、TCP 取样器、JDBC 请求取样器等，也支持 XMeter 开源的 MQTT 插件提供的连接、发布、订阅取样器（<链接>）。如果您希望在脚本中使用更多第三方的 JMeter 扩展插件，请联系我们。
+## Create a scenario
 
-   <图>
+1. Click the ` Create scenario ` button on test scenarios page.
 
-3. 如果您在 JMeter 脚本中使用了 CSV 数据文件，请将这些后缀名为 .csv 或 .txt 的数据文件存放于  JMeter 脚本的同级目录中进行引用（即 `CSV 数据文件设置` 的文件名中不要包含路径），并逐个上传。目前自定义场景中支持的数据文件，总数不超过 10 个，总文件大小不超过 20 MB。
+2. Pick up a JMeter script with .jmx extension, drag and drop it to upload. Each scenario contains 1 JMeter script, which should be compatible with JMeter 5.0 or higher versions. The script should use JMeter embedded samplers, like HTTP request sampler, TCP sampler, JDBC sampler, etc., or use samplers defined in XMeter open-source [MQTT plugin](https://github.com/emqx/mqtt-jmeter). If you want to use other JMeter third-party extension plugins, please contact us.
 
-4. XMeter Cloud 运行测试时，会根据测试规模启动一个或多个测试机实例以模拟负载。默认情况下，所有的数据文件都将被完整地分发到各台测试机上。如果您的测试中需要确保同一条测试数据不被重复使用，请使用数据文件拆分功能，将需要拆分的数据文件进行勾选。
+   ![upload-custom-scene](../_assets/upload_custom_scene.png)
 
-   例如，数据文件中保存了 MQTT Client ID，如果同一个 Client ID 在不同的测试机中多次连接 MQTT Broker，后续连接请求将会被拒绝。而使用了数据文件拆分后，XMeter Cloud 会根据每台测试机的负载情况，将数据文件拆分后分发到相应测试机上，以确保不同的测试机使用不同的测试数据。
+3. If you use ` CSV data set config `  in the script , upload the csv data files with .csv or .txt extensions in sequence. Please locate the csv data files in the same directory level with the script, and not include path in the ` Filename ` of ` CSV data set config `. Each scenario can contain at most 10 csv data files, with a mamixum size of 20MB.
 
-   <图>
+4. XMeter Cloud will launch one or more test agents to simulate desired load. By default, all csv data files will be dispatched entirely to each agent. If you need to ensure that data is not resued on different agents, please use the data file splitting feature.
 
-5. 使用默认的场景名称，或输入设置。
+   Here is an example: the MQTT Client ID is stored in the csv data file. If the same Client ID trys to connect to the MQTT Broker more than once from different test agents, the connection requests will be rejected. With the data file splitting feature enabled, XMeter Cloud will split the data file according to the load on each agent, and dispatch the splitted data to the corresponding agents. Therefore, different test agents use different test data to ensure correct business behavior. Refer to  <a href="#data-file-splitting">Data file splitting</a> for details.
 
-6. 点击 `创建` 按钮，完成自定义场景的创建。也可以点击 `创建并测试` 按钮，在场景完成创建后直接进入测试配置页面。
+   ![split-csv](../_assets/split_csv.png)
 
-## 提交自定义场景测试
+5. Use default scenario name, or input name you want.
 
-1. 点击场景右侧 `测试` 按钮。
+6. Click the ` Create `  button, or click the ` Create with test `  button to go and config test settings after scenario is created.
 
-   <图>
+## Submit a custom scenario test
 
-2. 使用默认的测试名称，或输入设置。
+1. Click the ` Test `  button for the custom scenario.
 
-3. 指定以分钟为单位的测试时长。
+   ![custom-scene-test](../_assets/custom_scene_test.png)
 
-4. 配置虚拟用户数，以指定测试中需模拟的并发数。默认的虚拟用户数为 JMeter 脚本线程组中所设置的线程数。如果脚本中仅有一个线程组，只需要设置该线程组的虚拟用户数即可；如果脚本中包含多个线程组，“虚拟用户数”展示的是所有线程组的总数，点击可进一步配置各个线程组的虚拟用户数。每个线程组的虚拟用户数都应为正整数。
+2. Use default test name, or input name you want.
 
-5. 如果需要使用 VPC 对等连接进行私网测试，请指定发压区域。发压区域与对等连接中 XMeter 端 VPC 所属区域对应，指定发压区域后，将从该区域发起压测，测试机与该区域所配置的对等连接中的对端可互相通信。
+3. Input test duration in minutes.
 
-6. 如果需要指定测试并发的递增速度，请配置 Ramp-Up 时间，它指定了测试将在多少秒内匀速生成所有的虚拟用户。默认的 Ramp-Up 时间为 1 秒。
+4. Config VU number, to specify the number of simulated concurrent users. The default VU number equals to the one in the JMeter script. If the script has only 1 thread group, please config VU number for that thread group; If the script has more than 1 thread group, VU number represents the total number of all thread groups, please click and config VU for each thread group separately. VU number for each thread group should be positive integer.
 
-7. 如果需要为测试提供进一步的说明信息，请设置描述内容。
+5. The regions which are bound to your peering connections display in the dropdown list. If you want to test against services or applications in VPC, please specify the corresponding region.
 
-8. 如果您的测试需要在多次运行中使用不同的参数，可以使用 XMeter Cloud 的运行时变量功能简化测试场景的维护。例如，需要在集成测试中对测试环境进行压测，也需要在端对端测试中对准生产环境进行压测，两套环境使用相同逻辑的测试脚本，但目标服务器地址和端口等信息不同。这种情况下，如果维护两个自定义场景分别对应两套环境，将不利于后期的维护，带来额外的使用成本。
+6. Ramp-Up period specifies how long it takes to reach the maximum number of VU. The default value is 1 second.
 
-   运行时变量功能需要在 JMeter 脚本中使用指定的 `用户定义的变量` 组件（参见<链接>），这些变量将展示在测试配置页面中。您可无需反复修改 JMeter 脚本，从页面上设置本次运行所需的参数值即可。
+7. Provide description if extra test information needs to be recorded.
 
-   <图>
+8. If you want to use different variable values for different test executions, please use the runtime variable feature. For example, you will execute tests for both integration testing environment and quasi-production environment, with similar scripts that only differ in target hosts and ports. If you maintain two different scenarios, there will be extra efforts. By using runtime variable feature, it will be much easier to achieve the goal.
 
-9. 确认测试配置与费用后，点击 `立即测试` 按钮提交测试。
+   To enable runtime variable feature, a special ` User defined variables ` element is required in the JMeter script (Refer to <a href="#runtime-variable-configuration-in-jmeter">Runtime variable configure</a> for instructions). The runtime variables will be displayed and set value on test config page, without need to modify JMeter script over and over again.
 
-## 编辑自定义场景
+   ![runtime-vars](../_assets/xmeter_runtime_variables.png)
 
-1. 点击场景右侧 `...` 按钮，将展开更多操作项。您可以通过 `编辑测试场景` 对自定义场景进行编辑。
+9. Confirm the estimated price and test settings, then click the ` Test it now `  button to launch the test.
 
-<图>
+## Edit a custom scenario
 
-2. 支持对场景名称、数据文件、数据文件拆分进行编辑。
+1. Click the ` ... ` button to reveal more operations. You can click ` Edit scenario ` button modify the custom scenario.
 
-<图>
+2. You can edit scenario name, csv data files and enable/disable data file split.
 
-## 删除自定义场景
+   ![edit-scene](../_assets/edit_scene.png)
 
-1. 点击场景右侧 `...` 按钮，点击 `删除测试场景` ，将删除当前自定义场景。场景对应的所有测试记录也将被删除，请谨慎操作。
+## Delete a custom scenario
 
-## 在脚本中设置运行时变量
+1. Click the ` ... ` button to reveal more operations. You can click ` Delete scenario ` button delete the custom scenario.
 
-为了使用 XMeter Cloud 的运行时变量功能，需要对上传的 JMeter 脚本进行相关适配。
+2. All test records of the custom scenario will be deleted in cascades. Please be careful.
 
-从 JMeter 中打开脚本，在测试计划中加入一个名为 xmeter_runtime_vars 的 `用户定义的变量` 组件，并将每次测试运行时可能需要使用不同值的参数加入该组件中。例如：xmeter_runtime_vars 变量组件中加入了两个变量，分别叫做 host 和 port。
+## Data file splitting
 
-<图>
+If you check the box in front of a csv data file, the data file splitting is enabled. XMeter Cloud will split those data files and dispatch them to each test agent during execution. Therefore, each agent will use different test data.
 
-请注意，脚本中只能有 1 个 xmeter_runtime_vars 的 `用户定义的变量` 组件，否则上传脚本的时候会报错。xmeter_runtime_vars 中变量的数量不限。
+The actual rows of data used in a splitted csv data file equals to the VU number of the thread group that contains the data file. If the data file does not contain enough rows of data, the test will fail. On the other hand, if the data file contains more data than VU numbers, the excess rows will not be used.
+
+Here is an example: there is 1 thread group in the JMeter script, which uses a csv data file data.csv of 20,000 rows of data. The data file splitting is enabled for data.csv. During a test execution, 10,000 VU number is configured and all the simulated users are distributed to 5 test agents (e.g. 2,000 simulated users each). As a result, each agent uses different rows of data as:
+
+| Test agent       | Rows of data used by the agent |
+| ------------- | ------------------------- |
+| agent 1 | 1st row to 2,000th row |
+| agent 2 | 2,001st row to 4,000th row |
+| agent 3 | 4,001st row to 6,000th row |
+| agent 4 | 6,001st row to 8,000th row |
+| agent 5 | 8,001st row to 10,000th row |
+
+The data from 10,001st row to 20,000th row will not be used in this execution.
+
+## Runtime variable configuration in JMeter
+
+To enable XMeter Cloud runtime variable feature, you need extra configuration for the JMeter script used in a custom scenario.
+
+Open the script in JMeter, create a special ` User defined variables ` named 'xmeter_runtime_vars under' the ` Test plan ` element. Then add in the variables whose values varies in different executions. For example, 2 variables 'host' and 'port' are added in xmeter_runtime_vars.
+
+![runtime-vars-jmeter](../_assets/runtime_vars_jmeter.png)
+
+Please note, at most 1 ` User defined variables ` element named 'xmeter_runtime_vars' is permitted in a JMeter script, while the amount of variables in the element is not limited.

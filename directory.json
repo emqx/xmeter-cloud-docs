@@ -50,10 +50,6 @@
           "path": "features/test_center"
         },
         {
-          "title": "测试场景",
-          "path": "features/test_scenario"
-        },
-        {
           "title": "测试历史",
           "path": "features/test_records"
         },
@@ -88,6 +84,10 @@
         {
           "title": "订单",
           "path": "features/order"
+        },
+        {
+          "title": "测试场景",
+          "path": "features/test_scenario"
         },
         {
           "title": "VPC 对等连接",
@@ -155,10 +155,6 @@
           "path": "features/test_center"
         },
         {
-          "title": "Test Scenarios",
-          "path": "features/test_scenario"
-        },
-        {
           "title": "Test Records",
           "path": "features/test_records"
         },
@@ -181,6 +177,10 @@
         {
           "title": "Coupons",
           "path": "features/coupons"
+        },
+        {
+          "title": "Test Scenarios",
+          "path": "features/test_scenario"
         },
         {
           "title": "VPC Peering Connections",
