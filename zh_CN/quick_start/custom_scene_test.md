@@ -6,7 +6,7 @@ XMeter Cloud 基于  [Apache JMeter](https://jmeter.apache.org/) 开源项目，
 
 ## 创建并发起自定义场景测试
 
-1. 使用 JMeter 设计测试场景，并编写保存脚本。XMeter Cloud 兼容 JMeter 5.0 及以上版本编写的脚本。如果 您的 JMeter 脚本中需要使用 CSV 数据文件，请将数据文件存放于 JMeter 脚本的同级目录中进行引用（即 `CSV 数据文件设置` 中的文件名不要包含路径）。
+1. 使用 JMeter 设计测试场景，并编写保存脚本。XMeter Cloud 兼容 JMeter 5.0 及以上版本编写的脚本。如果您的 JMeter 脚本中需要使用 CSV 数据文件，请将数据文件存放于 JMeter 脚本的同级目录中进行引用（即 `CSV 数据文件设置` 中的文件名不要包含路径）。
 
    ![jmeter](../_assets/jmeter.png)
 
@@ -31,7 +31,7 @@ XMeter Cloud 基于  [Apache JMeter](https://jmeter.apache.org/) 开源项目，
    - 虚拟用户数：负载测试中模拟的并发数量。如果脚本中包含多个线程组，需要点击后为每个线程组分别设置。
    - Ramp-Up 时间：指定了测试运行开始后在多长时间内匀速生成所有的虚拟用户。
 
-7. 点击下一步，核对测试配置信息与费用估算。
+7. 点击下一步，核对测试配置信息与估算的费用。
 
    ![custom-scene-estimation](../_assets/custom_scene_estimation.png)
 

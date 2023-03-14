@@ -2,29 +2,29 @@
 
 您在首次使用 XMeter Cloud 时需要选择基础版或专业版作为使用版本。
 
-如果您希望快速体验 XMeter Cloud 测试服务，可以选择基础版尝试小规格 MQTT 负载测试，后续有大规格负载测试需求时再自助升级到专业版。
+如果您希望快速体验 XMeter Cloud 测试服务，可以选择基础版尝试小规格 MQTT 负载测试，后续有大规模测试需求时再自助升级到专业版。
 
-您也可以在首次使用时直接选择专业版，体验更丰富的 XMeter Cloud 负载测试服务。
+您也可以在首次使用时直接选择专业版，体验更丰富的 XMeter Cloud 测试服务。
 
 ## 首次使用 XMeter Cloud
 
 1. 选择您需要的产品版本，点击 `开始使用` 按钮。
 
-![](../_assets/product_menu.png)
+![product-menu](../_assets/product_menu.png)
 
 2. 阅读 XMeter Cloud 服务协议并勾选“我已阅读并同意”，然后点击 `开始使用` 按钮。
 
-<img src="../_assets/product_standard_terms.png" width ="60%" />
+![product-standard-terms](../_assets/product_standard_terms.png)
 
 ## 从基础版升级到专业版
 
-1. 点击顶部菜单中的 `用户图标` -> `产品` ，进入产品页面，点击专业版卡片中的 `升级到专业版` 按钮。
+1. 点击顶部菜单中的 `用户图标` -> `产品` ，进入产品页面，点击专业版中的 `升级到专业版` 按钮。
 
-<img src="../_assets/product_standard_upgrade.png" width ="60%" />
+![product-standard-upgrade](../_assets/product_standard_upgrade.png)
 
 2. 阅读 XMeter Cloud 服务协议并勾选“我已阅读并同意”，然后点击 `升级`按钮。
 
-<img src="../_assets/product_standard_upgrade_terms.png" width ="60%" />
+![product-standard-upgrade-terms](../_assets/product_standard_upgrade_terms.png)
 
 ## 专业版服务
 
@@ -34,7 +34,7 @@
 
 ### 更多测试协议支持
 
-除了内置 MQTT 测试场景的支持，专业版还提供自定义场景测试功能，以方便用户以 JMeter 脚本方式创建自定义场景，从而实现 MQTT 以外其他协议的测试，如 TCP、HTTP/HTTPS 等协议。目前兼容 JMeter 5.4.3 内置的多种协议，您也可以联系我们以了解更多的协议支持能力。
+除了内置 MQTT 测试场景的支持，专业版还提供自定义场景测试功能，以方便用户以 JMeter 脚本方式创建自定义场景，从而实现 MQTT 以外其他协议的测试，如 TCP、HTTP/HTTPS、WebSocket 等协议。目前兼容 JMeter 5.0 及以上版本内置的多种协议，您也可以联系我们以了解更多的协议支持能力。
 
 ### VPC 对等连接
 

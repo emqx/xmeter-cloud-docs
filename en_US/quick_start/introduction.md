@@ -6,7 +6,12 @@ If you have not yet created an account for XMeter Cloud, the following steps wil
 
 - [Register account](./account.md)
 
+- [Choose a plan](./product.md)
+
 If you have signed up and get ready for XMeter Cloud trial, you can view the quick tutorial for MQTT test.
 
 - [Submit an MQTT test](./mqtt_test.md)
 
+If you have been using XMeter Cloud professional plan, you can view the quick tutorial for testing protocols other than MQTT.
+
+- [Submit a custom scenario test](./custom_scene_test.md)

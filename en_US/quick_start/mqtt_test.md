@@ -51,4 +51,4 @@ MQTT protocol is one of the core IoT messaging protocols. This tutorial will gui
 
    ![config-step3](../_assets/config_step_3.png)
 
-6. Click ` Test it now ` , you will automatically jump to the test report page. You can view the test status and charts when the testing is running, as well as exporting test report when the test is done. Refer to  [Test reports](../features/test_reports.md) for more guide of understanding a test report. 
+6. Click  the ` Test it now ` button, you will automatically jump to the test report page. You can view the test status and charts when the testing is running, as well as exporting test report when the test is done. Refer to  [Test reports](../features/test_reports.md) for more guide of understanding a test report. 

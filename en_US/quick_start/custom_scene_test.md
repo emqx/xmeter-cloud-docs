@@ -1,36 +1,39 @@
-# 提交自定义场景测试
+# Submit a custom scenario test
 
-[JMeter](https://jmeter.apache.org/)是Apache基于Java开发的一款开源的测试工具，可以用于对服务器，网络或对象模拟巨大的负载,来分析整体性能。开发者可以通过创建带有断言的脚本来验证程序是否返回来期望的结果。
+XMeter Cloud is based on open-source [Apache JMeter](https://jmeter.apache.org/) project, fully compatible with JMeter scripts. If you are using XMeter Cloud professional plan, you can create a custom scenario with JMeter script, and launch a test from the custom scenario. This enables load tests not limited to MQTT. Tests for protocols like TCP, HTTP/HTTPS, WebSocket can  also be supported.
 
-XMeter专业版支持用户在XMeter中基于JMeter脚本来创建自定义场景并发起测试，在本教程中，您将学习如何创建自定义场景并快速发起测试。
+This tutorial will guide you through the process of submitting a test for protocols other than MQTT in XMeter Cloud.
 
-## 创建并发起自定义场景测试
+## Create a custom scenario and submit a test
 
-1. 下载安装JMeter，并创建自定义.jmx脚本,入门教程请参考[文档](https://www.jianshu.com/p/0e4daecc8122)。
+1. Use JMeter to create a script for the test scenario you need. XMeter Cloud is compatible with JMeter scripts created in JMeter 5.0 and higher versions. If you use ` CSV data set config ` in your JMeter script, please locate the csv data files in the same directory level with the script, and not include path in the ` Filename ` of ` CSV data set config `
 
-   <图>
+   ![jmeter](../_assets/jmeter.png)
 
-2. 登录XMeter后，进入测试管理的测试中心页面，点击创建场景。
+2. Login to [XMeter Cloud Console](https://xmeter-cloud.emqx.com/commercialPage.html#/).
 
-3. 输入场景名称，将步骤1中创建的.jmx脚本上传，如果脚本中配置了数据文件（仅支持.csv或.txt文件），要将配置的所有数据文件上传。（注意脚本中CSV数据文件设置中的文件名只需要文件名，不需要带文件路径。）
+3. Click the ` Create Scenario ` button.
 
-   <图>
+   ![launch-test](../_assets/first_custom_test.png)
 
-4. 勾选需要拆分的数据文件。被拆分的数据文件的数据将会按照不同容器分配给虚拟用户。每个容器分配到的数据文件是不同的。不被拆分的数据文件将会被所有容器共享。
+4. Upload JMeter script (with .jmx extension) , and provide scenario name.
 
-5. 点击创建并测试，进行自定义场景测试的配置。
+   ![upload-custom-scene](../_assets/upload_custom_scene.png)
 
-   <图>
+5. If the JMeter script uses ` CSV data set config `, upload the csv data files (with .csv or .txt extension).
 
-   - 设置测试名称：为测试设置具有辨识度的名称，与其他测试区分。
-   - 设置测试时长：测试的预期运行时间。
-   - 虚拟用户数：负载测试中模拟的并发数量。多个线程组时，需要点击后为每个线程组分别设置。
-   - Ramp-Up 时间：指定了测试运行时在多长时间内生成所有的虚拟用户。
+6. Click the ` Create with Test ` button, create the custom scenario and go to test setting.
 
-6. 点击下一步，核对测试配置信息与价格估算。
+   ![custom-scene-test](../_assets/custom_scene_test.png)
 
-   <图>
+   - Provide the following information:
+     - Test name
+     - Test duration
+     - VU number. It presents the number of simulated concurrent users. If more than 1 thread groups are included in the script, you will click and config VU for each thread group.
+     - Ramp-Up period. It specifies how long to reach the maximum number of VU.
 
-7. 点击立即测试，将跳转到测试报告页面。在准备测试环境过程中，将会花费一些时间，测试将在指定测试时长后完成。您将在测试报告页面实时查看到测试的状态与数据，并在测试完成后下载测试报告。您可以前往 [测试报告](../features/test_reports.md)，了解如何解读测试报告。
+7. Click the ` Next ` button, review the estimated price and test settings.
 
-   
+   ![custom-scene-estimation](../_assets/custom_scene_estimation.png)
+
+8. Click  the ` Test it now ` button, you will automatically jump to the test report page. You can view the test status and charts when the testing is running, as well as exporting test report when the test is done. Refer to  [Test reports](../features/test_reports.md) for more guide of understanding a test report. 
