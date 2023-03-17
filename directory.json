@@ -29,12 +29,16 @@
           "path": "quick_start/account"
         },
         {
+          "title": "选择版本",
+          "path": "quick_start/product"
+        },
+        {
           "title": "提交 MQTT 测试",
           "path": "quick_start/mqtt_test"
         },
         {
-          "title": "升级到专业版",
-          "path": "quick_start/upgrade"
+          "title": "提交其他协议测试",
+          "path": "quick_start/custom_scene_test"
         }
       ]
     },
@@ -82,6 +86,10 @@
           "path": "features/order"
         },
         {
+          "title": "测试场景",
+          "path": "features/test_scenario"
+        },
+        {
           "title": "VPC 对等连接",
           "path": "features/vpc"
         }
@@ -126,12 +134,16 @@
           "path": "quick_start/account"
         },
         {
+          "title": "Choose a Plan",
+          "path": "quick_start/product"
+        },
+        {
           "title": "Submit an MQTT Test",
           "path": "quick_start/mqtt_test"
         },
         {
-          "title": "Upgrade to Professional Plan",
-          "path": "quick_start/upgrade"
+          "title": "Submit a Custom Scenario Test",
+          "path": "quick_start/custom_scene_test"
         }
       ]
     },
@@ -165,6 +177,10 @@
         {
           "title": "Coupons",
           "path": "features/coupons"
+        },
+        {
+          "title": "Test Scenarios",
+          "path": "features/test_scenario"
         },
         {
           "title": "VPC Peering Connections",

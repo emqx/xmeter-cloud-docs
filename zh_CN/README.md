@@ -24,7 +24,7 @@ XMeter Cloud 是 EMQ 公司推出的面向物联网关键业务的大规模性�
 
 ### 兼容 JMeter 脚本
 
-基于 Apache JMeter 开源项目，充分使用 JMeter 创建灵活复杂测试场景上的优势。
+基于 Apache JMeter 开源项目，充分利用 JMeter 可灵活创建复杂测试场景的优势。
 
 ### 可视化测试报告
 
