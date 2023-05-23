@@ -96,6 +96,8 @@ Here is an example: there is 1 thread group in the JMeter script, which uses a c
 
 The data from 10,001st row to 20,000th row will not be used in this execution.
 
+Please note, if a csv data file does not belong to any thread group, data file splitting will not work.
+
 ## Runtime variable configuration in JMeter
 
 To enable XMeter Cloud runtime variable feature, you need extra configuration for the JMeter script used in a custom scenario.
