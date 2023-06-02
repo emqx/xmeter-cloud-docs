@@ -1,5 +1,9 @@
 # Release note
 
+## 2023-06-02
+
+Fix bugs.
+
 ## 2023-03-17
 
 Support more protocols test other than MQTT.
