@@ -214,4 +214,4 @@ Specific limitations for each mode are listed as follows.
 
 ## How long are trace logs and error logs kept?
 
-XMeter Cloud cleans test logs regularly. Trace logs will be kept for **1 month**, while error logs will be kept for **3 months**. Logs other than trace logs and error logs will also be kept for **3 months**. Please download and back up your important logs in time.``
+XMeter Cloud cleans test logs regularly. Trace logs will be kept for **1 month**, while error logs will be kept for **3 months**. Logs other than trace logs and error logs will also be kept for **3 months**. Please download and back up your important logs in time.
