@@ -54,7 +54,7 @@ Trace logs display interaction messages between simulated clients and system bei
 
 ### Error logs
 
-Error logs display different types of errors and occurrences during test runs。 You can click and check details of an error log record.
+Error logs display different types of errors and occurrences during test runs. You can click and check details of an error log record.
 
 ![error-log](../_assets/error_log.png)
 

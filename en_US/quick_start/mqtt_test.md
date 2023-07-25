@@ -38,7 +38,7 @@ MQTT protocol is one of the core IoT messaging protocols. This tutorial will gui
 
    ![config-step2-msg](../_assets/config_step_2_msg.png)
 
-   - Input number of publishers/subscribers for some messaging modes：
+   - Input number of publishers/subscribers for some messaging modes: 
       - Publish mode: no subscriber and equal number of publishers as connections set in previous step. No manual setting required.
       - One-to-one mode: both publishers and subscribers take half the number of connections set in previous step. No manual setting required.
       - Fan-out mode: fixed 1 publisher and equal number of subscribers as connections set in previous step. No manual setting required.
